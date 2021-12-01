@@ -1,0 +1,27 @@
+# Logfile created on 2021-12-02 00:12:08 +0530 by logger.rb/v1.4.3
+I, [2021-12-02T00:12:08.216644 #14317]  INFO -- : Started scenario: Validate the weather when it is cold
+I, [2021-12-02T00:12:08.216874 #14317]  INFO -- : Current day: Thursday
+I, [2021-12-02T00:12:08.217931 #14317]  INFO -- : Temperature is 10 which is less than 20
+I, [2021-12-02T00:12:08.217972 #14317]  INFO -- : Expected cloth: woollens
+I, [2021-12-02T00:12:08.217990 #14317]  INFO -- : Expected type: cold
+I, [2021-12-02T00:12:08.218715 #14317]  INFO -- : End scenario: Validate the weather when it is cold
+I, [2021-12-02T00:12:08.218745 #14317]  INFO -- : %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+I, [2021-12-02T00:12:08.220727 #14317]  INFO -- : Started scenario: Validate the weather when it is not cold
+I, [2021-12-02T00:12:08.220900 #14317]  INFO -- : Current day: Thursday
+I, [2021-12-02T00:12:08.221353 #14317]  INFO -- : Temperature: 10 which is not greater than 20, so skipping this scenario...
+I, [2021-12-02T00:12:08.222280 #14317]  INFO -- : End scenario: Validate the weather when it is not cold
+I, [2021-12-02T00:12:08.222310 #14317]  INFO -- : %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+I, [2021-12-02T00:12:08.224201 #14317]  INFO -- : Started scenario: Validate the cloth type when temperature is cold
+I, [2021-12-02T00:12:08.224368 #14317]  INFO -- : Current day: Thursday
+I, [2021-12-02T00:12:08.224642 #14317]  INFO -- : Traveller is advised to pick 
+I, [2021-12-02T00:12:08.225425 #14317]  INFO -- : Temperature is 10 which is less than 20
+I, [2021-12-02T00:12:08.225463 #14317]  INFO -- : Expected cloth: woollens
+I, [2021-12-02T00:12:08.225480 #14317]  INFO -- : Expected type: cold
+I, [2021-12-02T00:12:08.226460 #14317]  INFO -- : End scenario: Validate the cloth type when temperature is cold
+I, [2021-12-02T00:12:08.226510 #14317]  INFO -- : %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+I, [2021-12-02T00:12:08.228421 #14317]  INFO -- : Started scenario: Validate the cloth type when temperature is not cold
+I, [2021-12-02T00:12:08.228574 #14317]  INFO -- : Current day: Thursday
+I, [2021-12-02T00:12:08.228973 #14317]  INFO -- : Traveller is advised to pick 
+I, [2021-12-02T00:12:08.229622 #14317]  INFO -- : Temperature: 10 which is not greater than 20, so skipping this scenario...
+I, [2021-12-02T00:12:08.231000 #14317]  INFO -- : End scenario: Validate the cloth type when temperature is not cold
+I, [2021-12-02T00:12:08.231069 #14317]  INFO -- : %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

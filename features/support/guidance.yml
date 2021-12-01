@@ -1,0 +1,8 @@
+# Unit type of temperature is celcius
+temperature:
+  greater than 19:
+     type: not cold
+     cloth: swimmers
+  less than 20:
+     type: cold
+     cloth: woollens
