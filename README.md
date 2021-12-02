@@ -1,4 +1,4 @@
-# traveller
+# Traveller
 
  This BDD framework helps the user to plan for the business trip and to pack the items based on the weather conditions.
 
