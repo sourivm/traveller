@@ -13,11 +13,17 @@ Scenario: Validate the weather when it is not cold
   Then weather is considered as not cold
 
 Scenario: Validate the cloth type when temperature is cold
-  Given traveller is advised on the weather
-  When the temperature is less than 20 degree
+  Given the temperature is less than 20 degree
+  When traveller is advised on the weather
   Then packed cloth type should be woollens
 
 Scenario: Validate the cloth type when temperature is not cold
-  Given traveller is advised on the weather
-  When the temperature is greater than 20 degree
+  Given the temperature is greater than 20 degree
+  When traveller is advised on the weather
   Then packed cloth type should be swimmers
+
+Scenario: Validate the cloth type when upcoming days temperature are both cold and not cold
+  Given the temperature are both cold and not cold
+  When traveller is advised on the weather
+  Then packed cloth type should be woollens and swimmers
+
